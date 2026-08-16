@@ -1,0 +1,17 @@
+net_v15_int8.onnx filter=lfs diff=lfs merge=lfs -text
+nev_v15_int8.onnx filter=lfs diff=lfs merge=lfs -text
+cre_int8.onnx filter=lfs diff=lfs merge=lfs -text
+decoder_joint.int8.onnx filter=lfs diff=lfs merge=lfs -text
+encoder.int8.onnx filter=lfs diff=lfs merge=lfs -text
+nemo128.onnx filter=lfs diff=lfs merge=lfs -text
+svd_int8.onnx filter=lfs diff=lfs merge=lfs -text
+svd.onnx filter=lfs diff=lfs merge=lfs -text
+model_int8.onnx filter=lfs diff=lfs merge=lfs -text
+model_quantized.onnx.zip.001 filter=lfs diff=lfs merge=lfs -text
+model_quantized.onnx.zip.002 filter=lfs diff=lfs merge=lfs -text
+tokenizer.json filter=lfs diff=lfs merge=lfs -text
+tekken.json filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.zip.* filter=lfs diff=lfs merge=lfs -text
+*onnx* filter=lfs diff=lfs merge=lfs -text
